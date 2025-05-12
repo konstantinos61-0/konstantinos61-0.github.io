@@ -18,7 +18,7 @@ let myHeading = document.querySelector("h1");
       setUserName();
     } else {
       localStorage.setItem("name", myName);
-      myHeading.textContent = `Mozilla is cool, ${myName}`;
+      myHeading.textContent = `Spring is...a season, ${myName}`;
     }
   }
   
